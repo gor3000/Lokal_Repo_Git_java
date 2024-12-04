@@ -1,13 +1,22 @@
 public class Test_Git {
     public static void main(String[] args) {
-        Test_Git C = new Test_Git();
-        int c=Test_Git.add(10,50);
 
-        System.out.println("Hello World");
-        System.out.println("a+b: "+c);
+        int a=50;
+        int b=10;
+
+
+
+        System.out.println(add(a,b));
+        System.out.println(sub(a,b));
+        System.out.println(mul(a,b));
     }
     private static int add(int a, int b) {
-
         return a + b;
+    }
+    private static int sub(int a, int b) {
+        return a - b;
+    }
+    private static int mul(int a, int b) {
+        return a * b;
     }
 }
