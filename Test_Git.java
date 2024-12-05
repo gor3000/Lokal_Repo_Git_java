@@ -10,6 +10,8 @@ public class Test_Git {
         System.out.println(mul(a, b));
         System.out.println(div(a, b));
         System.out.println(pow(a, b));
+        System.out.println(min(a, b));
+
     }
 
     private static int add(int a, int b) {
@@ -33,4 +35,9 @@ public class Test_Git {
 
         return (int) Math.pow(a, b);
 }
+
+    private static int min(int a, int b) {
+        return Math.min(a, b);
+
+    }
 }
