@@ -1,14 +1,15 @@
 public class Test_Git {
     public static void main(String[] args) {
 
-        int a = 50;
-        int b = 10;
+        int a = 5;
+        int b = 3;
 
 
         System.out.println(add(a, b));
         System.out.println(sub(a, b));
         System.out.println(mul(a, b));
         System.out.println(div(a, b));
+        System.out.println(pow(a, b));
     }
 
     private static int add(int a, int b) {
@@ -25,7 +26,11 @@ public class Test_Git {
 
     private static int div(int a, int b) {
         return a / b;
-
-
     }
+
+    private static int pow(int a, int b) {
+
+
+        return (int) Math.pow(a, b);
+}
 }
